@@ -1,0 +1,61 @@
+
+.venueTitle{
+
+padding-top: 3px;
+font-family: Helvetica, sans-serif;
+font-weight: bold;
+font-size:115%;
+color: #333333;
+}
+.venueAddress{
+font-family: Helvetica, sans-serif;
+}
+
+.gameList {
+font-family: Helvetica, sans-serif;
+font-size: 80%;
+}
+ body { margin: 0px;
+ background-color: #F2F2F2;
+ position: relative;
+ }
+        #desktopText {
+        display: none;
+        }
+ #map_canvas 
+ {
+ position: relative;
+width: 320px;
+height: 280px;
+ }
+ 
+ #tagButton{
+ width: 320px;
+
+ 
+ }
+ 
+ #title{
+ color: #333333;
+ font-size: 1.5em;
+ font-weight: bold;
+ font-family: Helvetica, sans-serif;
+ }
+ 
+ #tagButton{
+ border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+ font-family: Helvetica, sans-serif;
+ font-weight: bold;
+ text-align: center;
+ color: white;
+ width: 296px;
+ padding: 10px;
+ margin-left: 2px;
+ margin-right: 2px;
+ margin-top: 5px;
+ padding-bottom:10px;
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(20, 20, 20, 1.0)), color-stop(100%, rgba(70, 70, 70, 1.0)));
+background: -moz-linear-gradient(-90deg,#141414,#464646);
+ }
